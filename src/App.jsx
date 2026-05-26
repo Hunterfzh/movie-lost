@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import HomePage from "./HomePage";
 import MoviesPage from "./MoviesPage";
- 
+
 function App() {
   return (
     <BrowserRouter>
@@ -14,5 +14,5 @@ function App() {
     </BrowserRouter>
   );
 }
- 
+
 export default App;
